@@ -1,0 +1,464 @@
+/****************************
+******** WEB-DISAGN *********
+******** Turdiyev Sherali ***
+******** 18 aprel 2011yil ***
+****************************/
+body {
+	margin:0;
+	padding:0;
+	background:url(../new05.08.2011/body_fon.gif);
+}
+* {
+	margin:0;
+	padding:0
+}
+h3{
+	font-size:13px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:3px 0;
+	border-bottom:1px solid #CCCCCC;
+}
+h5,h6{ font-weight:normal;font-family:Arial;margin:0;}
+h5{
+	font-size:12px;
+}
+h6{
+	font-size:11px;
+	border-bottom:1px solid #CCCCCC;
+}
+p{
+	text-align:justify;
+	text-indent:20px;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.clear { clear:both; }
+.more{
+	display:block;
+	width:100%;
+	clear:both;
+	color:#666666;
+	text-align:right;
+}
+.more a{color:#0033CC;}
+img {border : none;}
+tt {
+	
+	font-size:12px;
+	color:#003399;
+	font-weight:bold;
+}
+.main {
+	width:1000px;
+	font-family:"Times New Roman";
+	font-size:14px;
+	margin:0 auto;
+	background:#FFFFFF;
+	border-left:1px solid #c4e0fc; 
+	border-right:1px solid #c4e0fc;
+}
+.header {
+	width:1000px;
+	height:30px;
+	position:fixed;
+	z-index:1001;
+	/*background:#dbdbdb url(../img/header.jpg) repeat-x;*/
+	background:#aedcf3 url(../img/menu_fon.jpg) repeat-x;
+	top:0;
+	border-bottom:2px solid #a7a7a7;
+}
+.header_left {
+	width:170px;
+	height:30px;
+	background:#FFFFFF;
+	float:left;
+	border-right:1px solid #a7a7a7;
+}
+.logo {
+	margin:1px 0 0 0 ;
+	
+}
+
+.kirish{
+	width:990px;
+}
+.login{
+	width:100px;
+	background:url(../new05.08.2011/login.gif) no-repeat left center;
+}
+.search{
+	background:url(../new05.08.2011/search2.gif) no-repeat left center;
+	width:150px;
+}
+.pass{
+	width:100px;
+	background:url(../new05.08.2011/pass.gif) no-repeat left center;
+}
+.login, .pass, .search{
+	background-color:#ffffff;
+	border:1px solid #999999;
+	padding:1px 0 1px 28px;;
+}
+.user a{
+	color:#000000;
+}
+.header ul{
+	width:800px;
+	list-style-type:none;
+	margin:4px 0 0 3px ;
+	padding:0;
+	float:left;
+	font-size:12px;
+	font-family:Arial;	
+}
+.header li{
+	float:left;
+	margin:0 3px;
+	font-size:13px;
+}
+.white_fon li{
+	margin:5px 0 0 30px;
+	padding:0
+}
+.header li a{
+	display:block;
+	padding:5px 8px;
+	text-decoration:underline;
+	color:#000000;
+	text-align:center;
+}
+.header li a:hover, #aktiv{
+	text-decoration:none;
+	/*background:#FFFFFF url(../img/menu_fon.jpg) repeat-x bottom left;*/
+	/*filter:alpha(opacity=20);    -moz-opacity: 0.20;    opacity: 0.20;	*/
+	background:#FFFFFF;
+	border:inset #a7a7a7;
+	border-width:1px 1px 0 1px;
+	font-weight:600;
+}
+.main_bottom {
+	width:1000px;
+	margin-top:31px;
+	_margin-top:0px;
+	float:left;
+	padding:0;
+}
+.elonlar{
+	padding:5px;
+	margin:7px 0;
+	border:1px solid #a7a7a7;
+	background:#ffffff url(../img/maqola.jpg) repeat-x top;
+}
+.maqola{
+	padding:5px;
+	margin-bottom:5px;
+	border:1px solid #a7a7a7;
+	background:#ffffff url(../img/maqola.jpg) repeat-x top; 
+	text-align:justify;
+}
+.maqola ol li i{color:#666666}
+#izoh{
+	font-size:14px;
+	margin-bottom:5px;
+	border-bottom:1px solid #999999;
+	padding:5px 0;
+}
+#tst{
+	font-size:14px;
+	margin-bottom:5px;
+	border-bottom:1px solid #999999;
+	padding:10px 0;
+}
+#tst img{
+	float:none;
+	vertical-align:middle
+}
+.sahifa{
+	background:#dbdbdb url(../img/header.jpg) repeat-x ;
+	padding:5px;
+	margin:7px 0;
+	border:1px solid #a7a7a7;
+}
+.ajr{
+	padding:5px;
+	margin:7px 0;
+	border:1px solid #0099FF;
+	background:#c5e1fd;
+}
+.elonlar i, .ajr i{
+	color:#666666;
+	font-style:normal;
+}
+.lft{
+	float:left;
+	width:500px;
+	margin-top:2px;
+}
+.form_rght{
+	width:390px;
+	display:block;
+	margin-top:-1px;
+	float:right;
+	padding:0;
+}
+.natija_btn {
+	background:#666666	;
+	border:1px solid #666666;
+	padding:1px 10px;
+	color:#FFFFFF;
+	margin-left:10px;
+}
+.reklama {
+	margin:7px 0;;
+}
+.reklama img {
+	border:1px solid #999999;
+	margin-left:5px;
+	z-index:1000;
+	position:relative;
+}
+.white_fon{
+	background:#FFFFFF;
+	margin:5px 0;
+}
+.left_s{
+	width:740px;
+	float:left;
+	padding:5px;
+}
+.forma_test_finish{
+		
+}
+.kirish_div{
+	width:200px;
+	padding:2px 0;
+	border-left:1px solid #999999;
+	border-top:1px solid #999999;
+	background:#ffffff url(../img/menu_fon.jpg) repeat-x top;
+	position:fixed;
+	z-index:50;
+	bottom:0;
+	right:0;
+}
+.kirish_div a{
+	color:#0033FF;
+}
+.matn{
+	padding:5px;
+	text-align:justify;
+	margin:5px 0;
+}
+.matn img{
+	float:left;
+	margin:10px 10px 10px 0;
+}
+.matn ul, .matn ol{
+	margin-left:5px;
+}
+.matn li{
+	float:none;
+	display:block;
+	margin:3px 0;
+}
+.matn  a{
+	display:inline;
+	color:#333399;
+}
+.right_s{
+	width:249px;
+	float:right;
+	padding:5px 0;
+}
+.td{
+	border-bottom:1px solid #FFFFFF;
+	background:#FF0000;
+}
+.left_side{
+	width:700px;
+	float:left;
+}
+.table{
+	text-align:center;
+	color:#FFFFFF;
+}
+.table th{
+	background:#dbdbdb url(../img/header.jpg) repeat-x;
+	border-right:1px solid #a7a7a7;
+	border-bottom:1px solid #a7a7a7;
+	border-top:1px solid #a7a7a7;
+	text-align:center;
+	padding:3px 10px;
+	color:#000000;
+}
+.table td{
+	background:#FFFFFF;
+	border-bottom:1px solid #CCCCCC;
+	padding:3px 0;
+	color:#000000;
+}
+#savol{
+	width:200px;
+	padding:2px 0 2px 5px;;
+	text-align:left;
+	margin:0;
+}
+#javob_s{
+	text-align:justify;
+	margin:0 15px;
+}
+#javob_s img {
+	float:none;
+	margin:2px ;
+}
+#avp{
+	text-decoration:underline;
+	color:#333333;
+	font-size:12px;
+	font-weight:normal;
+}
+#avp:hover{
+	text-decoration:none;
+}
+.table a:link{
+	text-decoration:underline;
+	font-weight:bold;
+	color:#333399;
+}
+.table a:visited{color:#003399;text-decoration:underline;font:bold;}
+.table a:hover{
+	text-decoration:none;
+}
+.right_side{
+	width:200px;
+	float:right;
+}
+.footer{
+	margin-top:5px;
+	padding:2px 0;
+	border-top:1px solid #CCCCCC;
+}
+.footer_left{
+	width:180px;
+	height:33px;
+	padding-left:30px;
+	margin:5px;
+	float:left;
+	border-right:1px solid #CCCCCC;
+	background:url(../img/contect.jpg) no-repeat left center ;;
+}
+.footer a, .p_matn a, .maqola a{
+	text-decoration:underline;
+	color:#0033CC;
+}
+.footer a:hover, .p_matn a:hover, .maqola a:hover{
+	text-decoration:none;
+	color:#000000;
+}
+.footer_left b{
+	color:#046ee4;	
+}
+.footer_c{
+	width:210px;
+	float:left;
+	font-size:13px;
+	border-right:1px solid #CCCCCC;
+}
+.footer_c, .footer_r{
+	padding:0 2px;
+	margin:5px 0 5px 0;
+}
+.footer_r{
+	width:550px;
+	float:right;
+}
+.usser{
+	width:180px;	
+}
+.p_matn img{
+	float:left;
+	margin:5px;
+}
+.yunalishs{
+	width:100%;
+}
+.yunalishs li{
+	float:left
+}
+/*=== Ro'yxatdan o'tish ===*/
+.r_text{
+	width:200px;
+	background:#FFFFFF;
+	border:1px solid #333333;
+	padding:2px;
+}
+.mem_txt{
+	width:200px;
+	height:150px;
+	background:#FFFFFF;
+	border:1px solid #333333;
+	padding:2px;
+}
+.r_btn {
+	width:100%;
+	background:#666666	;
+	border:1px solid #666666;
+	padding:3px 0;
+	color:#FFFFFF;
+}
+.slct_k{
+	padding:3px	2px;
+}
+.slct{
+	width:100px;
+	padding:3px 0;
+}
+.slct_200{
+	width:205px;
+	padding:3px;
+}
+.savol_txtarea{
+	width:650px;
+	height:100px;
+	background:#FFFFFF;
+	border:1px solid #333333;
+	padding:2px;
+}
+
+.javob_txtarea{
+	width:650px;
+	height:350px;
+	background:#FFFFFF;
+	border:1px solid #333333;
+	padding:2px;
+}
+
+/*TEST uchun tugmalar*/
+.test{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	font:11px Arial, Helvetica, sans-serif;
+}
+.test li{
+	float:left;
+	margin:0 3px;
+	border:1px solid #000000;
+	padding:5px 7px;
+	background:#dbdbdb;
+	text-align:center;
+}
+.test li a{
+}
+#aktiv_tst, .test li:hover{
+	background:#FFFFFF;
+}
+#aktiv_tst_a{
+	font-weight:bold;
+	color:#0033CC;
+}
